@@ -19,13 +19,6 @@
         } else if (!preg_match($email_pattern, $email)) {
             $errors['email'] = "Please provide your email in correct formate!";
         }
-
-      
-
-        // if (strlen($age) == 0) {
-        // } else if ($age <= 0) {
-        //     $errors['age'] = "Please provide your age!";
-        // }
     }
 
     ?>

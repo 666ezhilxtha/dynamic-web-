@@ -1,0 +1,99 @@
+body{
+    background-color: linear-gradient(120eg,#2980b9 #8e44ad);
+}
+
+.para{
+    position: absolute;
+    top: 20%;
+    left: 42.5%;
+  text-align: center;
+  justify-content: baseline;
+}
+
+#login,
+#signup {
+    width: 280px;
+    height: 350px;
+    border: 2px solid #cdd5ed;
+    padding: 0px 15px 15px 15px;
+    border-radius: 18px;
+    font-family: arial;
+    line-height: 18px;
+    color: #605e5e;
+    font-size: 12px;
+     background: #cd32e8 ;
+   /* rgba(193, 8, 207, 0.828) 0 4px 10px -1px ; */
+}
+
+ #login h3{
+    text-align: centre;
+}
+
+#login {
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+
+#signup {
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+
+h3 {
+    color: #365D98
+}
+
+form label {
+    font-weight: bold;
+}
+
+form label,
+form input {
+    display: block;
+     margin-bottom: 5px;
+    width: 70%
+  
+   
+}
+
+form input {
+    position: relative;
+    border-bottom: solid 1px #adadad;
+    padding: 10px;
+    border: none;
+    margin-bottom: 20px
+
+}
+#login,label{
+    
+    top: 53%;
+    left: 52%;
+    color: #faf8f8;
+
+}
+
+.button {
+    width: 70%;
+    background-color: #5fcf80;
+    border-color: #3ac162;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 12px 18px;
+    max-width:100px;
+    color: #ffffff;
+}
+.button:hover{
+    background-color: #1c0d1c;
+    color: #5aed35;
+    box-shadow: 5px 10px 30px rgba(134, 157, 189, 0.397);
+    border-radius: 55px;
+}
+
+.errorMsg {
+    color: #cc0000;
+    margin-bottom: 10px
+}
